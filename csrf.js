@@ -4,7 +4,7 @@ async function getData() {
     try {
       const response = await fetch(url, {
         method: "POST",
-        body: "userid=Tannerviewer%40tannerco.com&password=h7mMnYWyngi8ABwJKXJ3",
+        body: "userid=Tannerviewer%40tannerco.com&password=h7mMnYWyngi8ABwJKXJ3&_xsrf=asdf",
         headers: {
           'Cookie': '_xsrf=asdf',
           'X-Xsrftoken': 'asdf'
